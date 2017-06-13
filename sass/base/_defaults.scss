@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family:  'Nunito', sans-serif;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  color: #555
+}
+
+code {
+  padding: 1em;
+  display: block;
+  background-color: #2e2e2e;
+  color: white;
+  margin: 1em 0;
+}

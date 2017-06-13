@@ -1,0 +1,16 @@
+.section {
+  padding: 2em 0;
+
+  &--small {
+    padding: 1em;
+  }
+
+  &--large {
+    padding: 5em;
+  }
+
+  &--xtra-large {
+    padding: 8em;
+  }
+
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="description">
+    <meta name="author" content="laurence foley">
+    <!-- Vendor stylesheets -->
+    <!-- <script src="https://use.fontawesome.com/e175f0cc50.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <header class="section--xtra-large white-text red">
+      <div class="container">
+        <h1 class="big-title u-text-center">CSS Boilerplate <small class="subtitle">A lighweight CSS framework</small></h1>
+        <div class="u-text-center">
+          <a href="css/index.css" class="btn white red-text btn--large">Download</a>
+          <a href="css/index.css" class="btn white btn--hollow btn--large">View on Github</a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="section">
+        <h2>Contents</h2>
+        <ul class="ul">
+          <li><a class="link" href="#getting-started">Getting Started</a></li>
+          <li><a class="link" href="#buttons">Buttons</a></li>
+          <li><a class="link" href="#colors">Colors</a></li>
+          <li><a class="link" href="#container">Container</a></li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2 id="getting-started">Getting Started</h2>
+        <p>Include the following in the head section of you HTML document.</p>
+        <code>
+          &lt;link rel="stylesheet" href="/css/master.css"&gt;
+        </code>
+        <p>
+          To download the src code type the following command.
+        </p>
+        <code>
+          git clone https://github.com/larfoley/boilerplate/
+        </code>
+      </div>
+      <div class="section">
+        <h2>Buttons</h2>
+        <h4>Button Skins</h4>
+        <button class="btn btn--default">Default</button>
+        <button class="btn btn--primary">Primary</button>
+        <button class="btn btn--success">Success</button>
+        <button class="btn btn--warning">Warning</button>
+        <code>
+          &lt;button class="btn">Default Button&lt;/button&gt;<br>
+          &lt;button class="btn btn-primary"&gt;Primary Button&lt;/button&gt;<br>
+          &lt;button class="btn btn-success"&gt;Success Button&lt;/button&gt;<br>
+          &lt;button class="btn btn-warning"&gt;Warning Button&lt;/button&gt;<br>
+        </code>
+      </div>
+      <div class="section">
+        <h2 id="colors">Colors</h2>
+        <p>Adjust the background color, text-color and border color of any HTML elemnet.</p>
+        <ul>
+          <li class="box red u-inline white-text">Background</li>
+          <li class="box blue-border u-inline gray-text">Border</li>
+          <li class="box green-text u-inline">Colored Text</li>
+        </ul>
+        <code>
+          &lt;div class="red">Background&lt;/div&gt;<br>
+          &lt;div class="blue-border">Border&lt;/div&gt;<br>
+          &lt;div class="green-text">Colored Text&lt;/div&gt;<br>
+        </code>
+        <h3>Available Color Classes:</h3>
+        <ul class="white-text">
+          <li class="red u-inline u-padding">red</li>
+          <li class="green u-inline u-padding">green</li>
+          <li class="blue u-inline u-padding">blue</li>
+          <li class="brightgray u-inline u-padding">brightgray</li>
+          <li class="radical-red u-inline u-padding">radical-red</li>
+        </ul>
+      </div>
+      <div class="section" id="icons">
+        <h2>Icons</h2>
+        <p>The <a class="link" href="http://fontawesome.io/icons/">FontAwesome</a> icon library is included. To view how to use FontAwesome <a href="http://fontawesome.io/icons/" class="link">Click Here</a>.</p>
+      </div>
+      <div class="section">
+        <h2 id="container">Container</h2>
+        <p>A container centers blocks of content.</p>
+        <div class="container lightgray">
+          <p>This text is inside a container</p>
+        </div>
+        <code>
+          &lt;div class="container">This text is inside a container&lt;/div&gt;<br>
+        </code>
+      </div>
+      <div class="section">
+        <h2 id="section">Section</h2>
+        <p>Sections space out the top and bottom padding of an element.</p>
+        <div class="section lightgray">
+          <div class="container">
+            <p>this is a section</p>
+          </div>
+        </div>
+        <code>
+          &lt;div class="section">This text is inside a section&lt;/div&gt;<br>
+        </code>
+      </div>
+      <div class="section">
+        <h2>Box</h2>
+        <p>Boxes have padding applied to the top, right, bottom and left of an element.</p>
+        <div class="box">
+          <p>I'm a box</p>
+        </div>
+        <code>
+          &lt;div class="box">i'm a box&lt;/div&gt;<br>
+        </code>
+      </div>
+      <div class="section">
+        <h2>Grid</h2>
+        <p>The grid system used here is <strong>toast.css</strong> by Dan Edan. You can find out how to use the toast grid syetem by clicking <a href="#">here</a>.</p>
+        <div class="grid">
+          <div class="grid__col grid__col--1-of-3">
+            <div class="box lightgray u-text-center">
+              <p>one</p>
+            </div>
+          </div>
+          <div class="grid__col grid__col--1-of-3">
+            <div class="box lightgray u-text-center">
+              <p>two</p>
+            </div>
+          </div>
+          <div class="grid__col grid__col--1-of-3">
+            <div class="box lightgray u-text-center">
+              <p>three</p>
+            </div>
+          </div>
+        </div>
+        <code>
+<pre>
+  &lt;div class="grid lightgray"&gt;
+    &lt;div class="grid__col grid__col--1-of-3"&gt;
+      &lt;div class="box"&gt;
+        &lt;p&gt;one&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="grid__col grid__col--1-of-3"&gt;
+      &lt;div class="box"&gt;
+        &lt;p&gt;two&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="grid__col grid__col--1-of-3"&gt;
+      &lt;div class="box"&gt;
+        &lt;p&gt;three&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</pre>
+        </code>
+      </div>
+      <div class="section">
+        <h2>Utilities</h2>
+        <p>Helpfull utilite classes. Note that all utilite classes use the !important rule.</p>
+        <code>
+<pre>
+  .u-text-center {
+    text-align: center !important;
+  }
+
+  .u-inline {
+    display: inline-block !important;
+  }
+
+  .u-block {
+    display: block !important;
+  }
+
+  .u-padding {
+    padding: 1em !important;
+  }
+
+  .u-margin {
+    margin: 1em !important;
+  }
+
+</pre>
+        </code>
+      </div>
+    </div>
+  </body>
+</html>

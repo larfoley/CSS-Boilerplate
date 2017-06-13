@@ -1,0 +1,19 @@
+{
+  "name": "css-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass-chokidar sass/ -o css/",
+    "watch-css": "npm run build-css && node-sass-chokidar sass/ -o css/ --watch --recursive --output-style compressed",
+    "kss": "kss --help"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass-chokidar": "0.0.2"
+  },
+  "devDependencies": {
+    "node-sass-chokidar": "0.0.2"
+  }
+}
