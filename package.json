@@ -10,9 +10,6 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-sass-chokidar": "0.0.2"
-  },
   "devDependencies": {
     "node-sass-chokidar": "0.0.2"
   }
