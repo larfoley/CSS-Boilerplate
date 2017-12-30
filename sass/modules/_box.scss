@@ -1,10 +1,16 @@
 .box {
+  display: block;
+  padding: 2em;
+}
+
+.box .box-lg {
   padding: 1em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  border: 1px solid #ccc;
-  
-  &--no-border {
-    border: none;
-  }
+}
+
+.box .box-lg {
+  padding: 3em;
+}
+
+.box .box-xl {
+  padding: 4em;
 }

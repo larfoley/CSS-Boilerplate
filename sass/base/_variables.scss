@@ -2,9 +2,9 @@
 //------------------------------------------------------------------------------
 
 $font-size: 16px;
-$font-stack: "Helvetica", "Tahoma", "Verdana", sans-serif;
+$font-family: "Nunito", "Helvetica", "Tahoma", "Verdana", sans-serif;
 $line-height: 1.5;
-$text-size: 1.2em;
+$text-size: 1em;
 
 // Container
 //------------------------------------------------------------------------------
@@ -15,6 +15,10 @@ $container-width: 1100px;
 
 // Colors
 //------------------------------------------------------------------------------
+
+$body-bg-color: "white";
+$text-color: #2e2e2e;
+$link-color: #0366d6;
 
 $colors: (
   "primary-color": #35D7BB,
@@ -29,10 +33,12 @@ $colors: (
   "radical-red": #FF3366,
 );
 
-$btn-default-bgColor: #eff3f6;
-$btn-primary-bgColor: map-get($colors, "blue");
-$btn-success-bgColor: #2ecc71;
-$btn-warning-bgColor: map-get($colors, "red");
+
+// Spacing
+//------------------------------------------------------------------------------
+
+$margin: 1em;
+$padding: 1em;
 
 // Media Queries
 //------------------------------------------------------------------------------

@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass-chokidar sass/ -o css/",
-    "watch-css": "npm run build-css && node-sass-chokidar sass/ -o css/ --watch --recursive --output-style compressed",
-    "kss": "kss --help"
+    "watch-css": "npm run build-css && node-sass-chokidar sass/ -o css/ --watch --recursive --output-style compressed"
   },
   "author": "",
   "license": "ISC",
