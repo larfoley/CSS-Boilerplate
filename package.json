@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass-chokidar sass/ -o css/",
-    "watch-css": "npm run build-css && node-sass-chokidar sass/ -o css/ --watch --recursive --output-style compressed"
+    "build": "node-sass-chokidar ./src/sass/ -o ./dist/css/ --recursive --output-style compressed",
+    "watch": "node-sass-chokidar ./src/sass/ -o ./dist/css/ --watch --recursive"
   },
   "author": "",
   "license": "ISC",

@@ -8,19 +8,21 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  font-size: $font-size;
-  font-family: $font-family;
-  background-color: $body-bg-color;
-  line-height: $line-height;
-}
-
 img {
   vertical-align: middle;
 }
 
 img, iframe {
   max-width: 100%;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 ul,
