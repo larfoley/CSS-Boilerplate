@@ -1,0 +1,25 @@
+// Fonts
+//==================
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+$font-size: 14px;
+$font-family: "Nunito", "Lato", "Helvetica", "Verdana", sans-serif;
+$line-height: 1.6;
+$text-size: 1rem;
+
+// Colors
+$primary-color: "";
+$secondary-color: "";
+$background-color: white;
+$text-color: #616161;
+$link-color: #0366d6;
+$headings-color: black;
+
+// Media Query
+$mq-sm: "screen and (min-width: 350px)";
+$mq-md: "screen and (min-width: 700px)";
+$mq-lrg: "screen and (min-width: 1000px)";
+$mq: $mq-md;
+// Usage:
+// @media #{$mq-small} {
+//
+// }
